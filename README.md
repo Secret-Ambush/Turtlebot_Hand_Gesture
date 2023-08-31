@@ -1,5 +1,10 @@
 # Control ROS Turtle Bot through Hand-Gestures in Real Time
-Control ROS Turtlebot through hand gestures in real time. When thumb is up in front of webcam the turtle starts speeding up, for left/right horizontal thumb turtle starts turning in left/right direction and stops as soon as it sees thumbs down. To achieve this, we trained a model to distinguish among different states of the hand and integrated it with ROS to move the turtle accordingly.
+Control ROS Turtlebot through hand gestures in real time. 
+- thumb's up = speeding up
+- left/right horizontal thumb = turning in left/right direction
+- thumbs down = stop
+
+To achieve this, we trained a model to distinguish among different states of the hand and integrated it with ROS to move the turtle accordingly.
 
 You can download the dataset from here:
 https://drive.google.com/open?id=1IHphiOmUaBfPuQVrCzUP40lfvzHLFbpb
